@@ -20,8 +20,6 @@ tx = {
     'gas': 212560,
     'gasPrice': w3.to_wei('20', 'gwei'),
     'data': Web3.to_hex(text='Dima Ivashchenko')
-
-    
 }
 
 signed_tx = account.sign_transaction(tx)
